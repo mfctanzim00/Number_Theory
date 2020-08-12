@@ -40,7 +40,7 @@ int main()
 
     while(t--){
               cin >> a >> b;
-              cout << gcd(a, b) << endl; ///or cout << __gcd(a, b) << endl;
+              cout << "GCD of " << a << " and " << b << " is : " << gcd(a, b) << endl; /// or cout << __gcd(a, b) << endl;
     }
     return 0;
 }
